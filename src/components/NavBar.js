@@ -4,11 +4,10 @@ function NavBar() {
     const links = ["home", "about", "projects"];
 
     return <nav > {
-            links.map((link) => ( <
-                >
+            links.map(link => ( < >
                 <
                 a key = { link }
-                href = { '#' + link } > { link } < /a> <
+                href = { '#' + link } > { link } < /a>  <
                 />
             ))
         } <
